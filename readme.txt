@@ -1,3 +1,11 @@
+["HEROKU"]//
+"start": "concurrently \"tsc -w\" \"nodemon dist/server.js\"",
+    yarn add express @types/express nodemon ts-node @types/node concurrently
+    "start": "tsc -w & nodemon dist/server.js",
+    ts config
+    web: yarn start
+//
+ 
 #How to run this project
 yarn start
 
